@@ -1,0 +1,33 @@
+<templateSet group="user-html">
+  <template name="t=" value="&lt;%= $SELECTION$ %&gt;" description="teamplate" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="hj" value="href=&quot;javascript:;&quot;" description="href=&quot;javascript:;&quot;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="b" value="&lt;!-- build:$END$ --&gt;&#10;&lt;!-- /build --&gt;" description="&lt;!-- build --&gt;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="bj" value="&lt;!-- build:js $END$ --&gt;&#10;&lt;!-- /build --&gt;" description="&lt;!-- build:js --&gt;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="bc" value="&lt;!-- build:css $END$ --&gt;&#10;&lt;!-- /build --&gt;" description="&lt;!-- build:css --&gt;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="br" value="&lt;!-- build:remove --&gt;&#10;$END$&#10;&lt;!-- /build --&gt;" description="&lt;!-- build:remove --&gt;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+</templateSet>

@@ -1,0 +1,23 @@
+<templateSet group="user-js-surround">
+  <template name="cl" value="console.log($SELECTION$);" description="console.log()" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="$" value="$($SELECTION$)" description="$ surround" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="if" value="if($SELECTION$) {&#10;    $END$&#10;}" description="if($SELECTION$) { }" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="each" value="_.each($SELECTION$,function($param$){&#10;    $END$&#10;});" description="_.each(function(){})" toReformat="true" toShortenFQNames="true">
+    <variable name="param" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>
