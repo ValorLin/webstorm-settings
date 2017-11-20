@@ -2,10 +2,11 @@
   <component name="FileTypeManager" version="17">
     <ignoreFiles list="*.hprof;*.pyc;*.pyo;*.rbc;*~;.DS_Store;.git;.hg;.svn;CVS;RCS;SCCS;__pycache__;_svn;rcs;" />
     <extensionMap>
-      <mapping pattern="cookie" type="PLAIN_TEXT" />
       <mapping pattern="build_release" type="PLAIN_TEXT" />
+      <mapping pattern="cookie" type="PLAIN_TEXT" />
       <mapping pattern="filename" type="PLAIN_TEXT" />
       <mapping pattern="build_dev" type="PLAIN_TEXT" />
+      <mapping pattern="mixins" type="PLAIN_TEXT" />
       <mapping ext="swf" type="PLAIN_TEXT" />
       <mapping pattern=".env" type="YAML" />
     </extensionMap>
