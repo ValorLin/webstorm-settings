@@ -1,0 +1,8 @@
+<templateSet group="Vue">
+  <template name="$t" value="$t('$END$')" description="$t('')" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+</templateSet>
