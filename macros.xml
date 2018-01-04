@@ -1,0 +1,14 @@
+<application>
+  <component name="ActionMacroManager">
+    <macro name="wrap p">
+      <action id="EditorLineEndWithSelection" />
+      <action id="SurroundWithLiveTemplate" />
+      <shortuct text="DOWN" />
+      <shortuct text="ENTER" />
+      <typing text-keycode="80:0">p</typing>
+      <action id="EditorChooseLookupItem" />
+      <action id="NextTemplateVariable" />
+      <action id="EditorDown" />
+    </macro>
+  </component>
+</application>
