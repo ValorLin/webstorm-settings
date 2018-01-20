@@ -8,6 +8,7 @@
       <mapping pattern="build_dev" type="PLAIN_TEXT" />
       <mapping pattern="mixins" type="PLAIN_TEXT" />
       <mapping ext="swf" type="PLAIN_TEXT" />
+      <mapping ext="map" type="PLAIN_TEXT" />
       <mapping pattern=".env" type="YAML" />
     </extensionMap>
   </component>
